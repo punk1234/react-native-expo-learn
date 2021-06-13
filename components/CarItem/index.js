@@ -7,7 +7,9 @@ import StyledButton from '../StyledButton';
 import styles from './styles';
 
 
-function CarItem({ name, tagline, taglineCTA, image }) {
+function CarItem( props ) {
+
+    const { name, tagline, taglineCTA, image } = props.car;
 
     return (
 

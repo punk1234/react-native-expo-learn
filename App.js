@@ -4,9 +4,8 @@ import React from 'react';
 
 import { StyleSheet, View } from 'react-native';
 
-import CarItem from './components/CarItem';
-
-import bgImage from './assets/images/ModelS.jpeg';
+import CarList from './components/CarList';
+import Header from './components/Header';
 
 
 export default function App() {
@@ -15,17 +14,9 @@ export default function App() {
 
     <View style={styles.container}>
 
-      <CarItem
+      <Header />
 
-        name={'Model S'}
-
-        tagline={'Order Online For'}
-
-        taglineCTA={'Touchless Delivery'}
-
-        image={bgImage}
-      
-      />
+      <CarList />
 
       <StatusBar style="auto" />
 

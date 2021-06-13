@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Dimensions, StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
 
@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
   
       width: '100%',
   
-      height: '100%'
+      height: Dimensions.get('window').height
   
     },
     
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   
       fontSize: 40,
   
-      fontWeight: 600
+      fontWeight: '600'
   
     },
   
