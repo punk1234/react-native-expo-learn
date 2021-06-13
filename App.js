@@ -6,6 +6,8 @@ import { StyleSheet, View } from 'react-native';
 
 import CarItem from './components/CarItem';
 
+import bgImage from './assets/images/ModelS.jpeg';
+
 
 export default function App() {
 
@@ -13,7 +15,17 @@ export default function App() {
 
     <View style={styles.container}>
 
-      <CarItem />
+      <CarItem
+
+        name={'Model S'}
+
+        tagline={'Order Online For'}
+
+        taglineCTA={'Touchless Delivery'}
+
+        image={bgImage}
+      
+      />
 
       <StatusBar style="auto" />
 
